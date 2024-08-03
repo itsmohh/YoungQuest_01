@@ -14,6 +14,7 @@
 		64E670902C5EAEBD0068A0B0 /* TeamBlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E6708F2C5EAEBD0068A0B0 /* TeamBlueTests.swift */; };
 		64E6709A2C5EAEBD0068A0B0 /* TeamBlueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E670992C5EAEBD0068A0B0 /* TeamBlueUITests.swift */; };
 		64E6709C2C5EAEBD0068A0B0 /* TeamBlueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E6709B2C5EAEBD0068A0B0 /* TeamBlueUITestsLaunchTests.swift */; };
+		64E670A92C5EAED10068A0B0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64E670A82C5EAED10068A0B0 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		64E670952C5EAEBD0068A0B0 /* TeamBlueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamBlueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E670992C5EAEBD0068A0B0 /* TeamBlueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamBlueUITests.swift; sourceTree = "<group>"; };
 		64E6709B2C5EAEBD0068A0B0 /* TeamBlueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamBlueUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64E670A82C5EAED10068A0B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		64E670722C5EAEBA0068A0B0 = {
 			isa = PBXGroup;
 			children = (
+				64E670A82C5EAED10068A0B0 /* README.md */,
 				64E6707D2C5EAEBA0068A0B0 /* TeamBlue */,
 				64E6708E2C5EAEBD0068A0B0 /* TeamBlueTests */,
 				64E670982C5EAEBD0068A0B0 /* TeamBlueUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E670A92C5EAED10068A0B0 /* README.md in Resources */,
 				64E670862C5EAEBC0068A0B0 /* Preview Assets.xcassets in Resources */,
 				64E670832C5EAEBC0068A0B0 /* Assets.xcassets in Resources */,
 			);
