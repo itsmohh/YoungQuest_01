@@ -7,7 +7,6 @@ Coming Soon
 Janee 
 zoe
 Andre
-Cassandra
-Amaree
+
 
 ### Team Blue
