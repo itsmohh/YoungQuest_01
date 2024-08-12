@@ -20,6 +20,7 @@
 		64E6709C2C5EAEBD0068A0B0 /* TeamBlueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E6709B2C5EAEBD0068A0B0 /* TeamBlueUITestsLaunchTests.swift */; };
 		64E670A92C5EAED10068A0B0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64E670A82C5EAED10068A0B0 /* README.md */; };
 		BF0C93EE2C629AA30020C685 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C93ED2C629AA30020C685 /* HomeView.swift */; };
+		BF81094B2C6A63F900A01CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		64E6709B2C5EAEBD0068A0B0 /* TeamBlueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamBlueUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		64E670A82C5EAED10068A0B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BF0C93ED2C629AA30020C685 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		64E670722C5EAEBA0068A0B0 = {
 			isa = PBXGroup;
 			children = (
+				BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */,
 				64C052AB2C62A922001926B6 /* .gitignore */,
 				64E670A82C5EAED10068A0B0 /* README.md */,
 				64E6707D2C5EAEBA0068A0B0 /* TeamBlue */,
@@ -252,6 +255,7 @@
 				64C052AC2C62A922001926B6 /* .gitignore in Resources */,
 				64E670A92C5EAED10068A0B0 /* README.md in Resources */,
 				64E670862C5EAEBC0068A0B0 /* Preview Assets.xcassets in Resources */,
+				BF81094B2C6A63F900A01CFC /* LaunchScreen.storyboard in Resources */,
 				64E670832C5EAEBC0068A0B0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
