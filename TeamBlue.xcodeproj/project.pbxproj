@@ -20,6 +20,7 @@
 		64E6709C2C5EAEBD0068A0B0 /* TeamBlueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E6709B2C5EAEBD0068A0B0 /* TeamBlueUITestsLaunchTests.swift */; };
 		64E670A92C5EAED10068A0B0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64E670A82C5EAED10068A0B0 /* README.md */; };
 		BF0C93EE2C629AA30020C685 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C93ED2C629AA30020C685 /* HomeView.swift */; };
+		BF0C93F42C6A64090020C685 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C93F32C6A64090020C685 /* ProfileView.swift */; };
 		BF81094B2C6A63F900A01CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */; };
 		BFFFC6C72C6A794E00FE5A31 /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFFC6C62C6A794E00FE5A31 /* ChangePasswordView.swift */; };
 		BF50A31E2C6A6406001D280D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A31D2C6A6406001D280D /* SignInView.swift */; };
@@ -59,6 +60,7 @@
 		64E6709B2C5EAEBD0068A0B0 /* TeamBlueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamBlueUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		64E670A82C5EAED10068A0B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BF0C93ED2C629AA30020C685 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BF0C93F32C6A64090020C685 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFFFC6C62C6A794E00FE5A31 /* ChangePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
 		BF50A31D2C6A6406001D280D /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			children = (
 				64E6707E2C5EAEBA0068A0B0 /* TeamBlueApp.swift */,
 				64E670802C5EAEBA0068A0B0 /* ContentView.swift */,
+				BF0C93F32C6A64090020C685 /* ProfileView.swift */,
 				BFFFC6C62C6A794E00FE5A31 /* ChangePasswordView.swift */,
 				BF50A31D2C6A6406001D280D /* SignInView.swift */,
 				64C052AD2C63C1FB001926B6 /* BudgetView.swift */,
@@ -294,6 +297,7 @@
 				64E670812C5EAEBA0068A0B0 /* ContentView.swift in Sources */,
 				64E6707F2C5EAEBA0068A0B0 /* TeamBlueApp.swift in Sources */,
 				64C052B02C63C229001926B6 /* SearchView.swift in Sources */,
+				BF0C93F42C6A64090020C685 /* ProfileView.swift in Sources */,
 				64C052AE2C63C1FB001926B6 /* BudgetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
