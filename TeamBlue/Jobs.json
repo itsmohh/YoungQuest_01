@@ -1,0 +1,24 @@
+[
+    {
+        name: "assistant teacher child care early childhood education",
+        location: "The Goddard School of Fairfield (Little Falls Road), Fairfield, NJ 07004"
+        description:"They are looking for part time & full assistant teachers to join our team today to work          in all of our age groups from Pre K to infants in a support role in a position called All         School Assistant.",
+        pay: "$16-$17 an hour",
+        jobType: "Full time",
+        benefits: "Continuing education credits                                                                      Dental insurance                                                                                  Food provided                                                                                     Health insurance                                                                                  Opportunities for advancement                                                                     Paid time off                                                                                     Paid training                                                                                     Tuition reimbursement",
+        requirements: "Experience working with children under the age of 5 in a large group environment.Post  high school education is a plus! Shows empathy and compassion for young children. Is              dependable and adaptable and enjoys working together toward a common goal. Must be able           to lift up to 50 lbs. In connection with the handling of children for the facilitation            of programs, child safety, and potential emergency situations. For Infant and Young               Toddler Teachers, must be able to properly lift infants into and out of a crib.",
+        category: "Education"
+    },
+    
+    {
+        name: "Life guard",
+        location: "Meadowlands Area YMCA",
+        description:"Maintains safe swimming conditions in the pool, deck, and surrounding areas. Creates a           safe and positive atmosphere that promotes member safety and engagement in accordance             with YMCA policies and procedures. Lifeguard hours are needed during all open hours of            the facility, weekdays 5am-10pm and weekends 7am-7pm.",
+
+        pay: "$13-$18 per hour",
+        jobType: "Part time",
+        benefits: "employee discount, flexible schedule",
+        requirements: "Minimum age of 16. \n Certifications: CPR for the Professional Rescuer, AED and Basic First Aid. \n Current Red Cross or YMCA Lifeguard certification. \n Ability to maintain certification-level of physical and mental readiness. \n Must demonstrate lifeguard skills in accordance with YMCA standards. \n Hear noises and distress signals in the aquatic environment, including in the water and anywhere around the zone of responsibility. \n Remain alert with no lapses of consciousness. \n See and observe all sections of an assigned zone or area of responsibility.",
+        category: "Safety"
+    }
+]
