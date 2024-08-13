@@ -25,11 +25,11 @@
     },
    
     {
-           "name":  "Sales Associate/Stock (Adidas)"
-           "location": "55 Parsonage Road, Edison, NJ 08837"
-           "description": "We are calling all Store Associates who don’t accept what “was” or what “is,” but those who want to create what will be, and who share our desire to make a difference. We believe sport has the power to change lives. To bring this mission to life we foster a culture centered on creativity, confidence, and collaboration, and while we will never rest on our laurels, we are humbled that this has allowed us to be recognized as one of the “world’s most attractive employers.”
-           "pay": "$14-$16 per hour"
-           "jobType": "Part time"
+           "name":  "Sales Associate/Stock (Adidas)",
+           "location": "55 Parsonage Road, Edison, NJ 08837",
+           "description": "We are calling all Store Associates who don’t accept what “was” or what “is,” but those who want to create what will be, and who share our desire to make a difference. We believe sport has the power to change lives. To bring this mission to life we foster a culture centered on creativity, confidence, and collaboration, and while we will never rest on our laurels, we are humbled that this has allowed us to be recognized as one of the “world’s most attractive employers.”,
+           "pay": "$14-$16 per hour",
+           "jobType": "Part time",
            "benefits": "Employee discount \n Flexible schedule \n Paid time off \n Tuition reimbursement"
            "requirements": "Availability must be flexible and include evenings and weekends. \n Hours are part time and will vary based on business needs. \n You must have or be pursuing a high school diploma or general education degree (GED). \n Three to six month’s experience working in a retail environment preferred. \n Basic numeracy, literacy, and verbal communication skills required. \n Must be 16 years of age or older. \n While performing the duties of this job, the employee is regularly required to talk or hear. \n The employee frequently is required to stand; walk; use hands to finger, handle, or feel; and reach with hands and arms. \n The employee is occasionally required to sit; climb or balance; and stoop, kneel, crouch, crawl, and operate a Brannock device. \n The employee must frequently lift and/or move up to 25 pounds and occasionally lift and/or move up to 50 pounds. \n Specific vision abilities required by this job include close vision, distance vision, color vision, peripheral vision, and ability to adjust focus.",
            "category": "Retail",
@@ -37,39 +37,77 @@
     },
        
        {
-           "name": "Rutgers Parking Attendant"
-           "location": "83 ROCKAFELLER ROAD, Piscataway, NJ"
-           "description": "RU Big Ten Football \n Parking Attendants/Cashiers Needed! \n Part-time, Overtime after 40 hours \n Kick the Football season off by working at the birthplace of college football in Piscataway, NJ, and earn an extra paycheck."
-
-           "pay": "$18 an hour"
-           "jobType": "part-time, temporary"
-           "benefits": "N/A"
+           "name": "Rutgers Parking Attendant",
+           "location": "83 ROCKAFELLER ROAD, Piscataway, NJ",
+           "description": "RU Big Ten Football \n Parking Attendants/Cashiers Needed! \n Part-time, Overtime after 40 hours \n Kick the Football season off by working at the birthplace of college football in Piscataway, NJ, and earn an extra paycheck.",
+           "pay": "$18 an hour",
+           "jobType": "part-time, temporary",
+           "benefits": "N/A",
            "requirements": "Must have the ability to communicate effectively with great customer service skills. \n Must be able to work in a variety of weather. \n Must be able to do simple math if cashier. \n Greet all patrons attending all football games. \n Must wear a proper uniform (i.e. Plain White Polo, with Khaki pants). \n Screen for various parking passes.",
            "category": "Parking",
            "id": 1003
        },
        
        {
-           "name": "Program Assistant - Birthday Parties"
-           "location": "13 Jefferson Ave, Maplewood, NJ 07040"
-           "description": "We are an all - inclusive organization joined together by a shared commitment to nurturing the potential of kids, promoting healthy living and fostering a sense of social responsibility. As a growing, mission focused, and future-oriented association of YMCAs, the Metro YMCA of the Oranges has an exciting opportunity for a highly motivated, mission-driven, candidate to join our team."
-           "pay": "Not given by site. Must ask in person."
-           "jobType": "part time"
-           "benefits": "N/A"
+           "name": "Program Assistant - Birthday Parties",
+           "location": "13 Jefferson Ave, Maplewood, NJ 07040",
+           "description": "We are an all - inclusive organization joined together by a shared commitment to nurturing the potential of kids, promoting healthy living and fostering a sense of social responsibility. As a growing, mission focused, and future-oriented association of YMCAs, the Metro YMCA of the Oranges has an exciting opportunity for a highly motivated, mission-driven, candidate to join our team.",
+           "pay": "Not given by site. Must ask in person.",
+           "jobType": "part time",
+           "benefits": "N/A",
            "requirements": "High school student or equivalent. \n Previous experience working with children. \n At least 15 years of age. \n Previous experience with diverse populations preferred."
            "category": "Assistant",
            "id": 1004
        },
       
       {
-          "name": "Tropical Smoothie Café Crew Member"
-          "location": "Freehold, NJ 07728"
-          "description": "Responsibilities: \n Deliver the Ultimate Guest service experience! \n Prepare orders in a timely and accurate manner. \n Work well with crew members and managers."
-          "pay":
-          "jobType":
-          "benefits":
-          "requirements": " "
-          "Category": "Retail"
+          "name": "Tropical Smoothie Café Crew Member",
+          "location": "Freehold, NJ 07728",
+          "description": "Responsibilities: \n Deliver the Ultimate Guest service experience! \n Prepare orders in a timely and accurate manner. \n Work well with crew members and managers.",
+          "pay": "$15.13 an hour",
+          "jobType": "Full-time, Part-time",
+          "benefits": "Employee discount \n Flexible schedule \n Opportunities for advancement",
+          "requirements": "Follow the highest food safety standards and regulations \n Train quickly and work efficiently \n Previous quick serve or restaurant experience a plus \n Flexible availability \n Rotating weekend shifts are required \n 16 years and older",
+          "Category": "Retail",
           "id": 1005
+      },
+      {
+          "name": "Hospitality Team Member Evening part-time(Chick-fil-A)",
+          "location": "287 US 202, Flemington, NJ 08822",
+          "description": "As a Front of House (Hospitality) Team Member, you will welcome & greet guests, take customer orders at either the front counter or drive-thru, prepare beverages & desserts, assemble and serve orders, maintain cleanliness, observe health and sanitation guidelines, and ensure each guest leaves with a smile! We are looking for friendly, enthusiastic people who enjoy serving customers. We will teach you everything else you need to know! Successful Team Members will conduct themselves with a positive attitude and impeccable character, demonstrating REMARKable hospitality service to every guest who visits our restaurant.",
+          "pay": "$15.50 per hr",
+          "jobType": "Part time",
+          "benefits": "401(k) matching \n Employee discount \n Flexible schedule \n Health insurance \n Leadership training provided",
+          "requirements": "Must be at least 16 years of age upon hire date \n Must be eligible to work in the United States \n Must have a source of reliable transportation \n Ability to handle all equipment, navigating shelving both high and low \n Reading, writing, and basic math and verbal communication skills required \n Works in hot, noisy and fast paced environment \n Mobility required during shifts \n Must work well under pressure \n Must be able to respond to changes or edits to orders quickly and efficiently \n Must be available a minimum of 20 hours per week, ability to close until 10:45pm, Mon-Sat, with at least 2 Saturday evenings per month.",
+          "category": "Retail",
+          "id": 1006
+      },
+      {
+          "name": "Student Aide",
+          "location": "Madison Area YMCA",
+          "description": "The F.M. Kirby Children's Center of the Madison Area YMCA is looking for part-time Student Aides to work in our classrooms. Student Aides assist classroom teachers to implement the Center's development program, maintain classroom and joint-use space, and assist in supervising and engaging with the children.",
+          "pay": "$15.13 - $16.00 per hour",
+          "jobType": "Part time",
+          "benefits": "Teaching experience"
+          "requirements": "Minimum of 14 years old. \n Must be able to work well with young children, parents, and staff and display strong customer service-related skills. \n Be certified (or agree to be trained) in CPR, First Aid, AED & oxygen certifications.",
+          "category": "Assistant",
+          "id": 1007
+
+         
+           },
+      {
+          "name": "Philly Pretzel Factory",
+          "location": "35 Hazlet Avenue, Hazlet, NJ 07730",
+          "description": "Looking to Hire Awesome People \n Need General Helpers. \n Earn $15 to $ 18 an hour! \n INCLUDING BONUSES & GREAT TIPS! \n Hiring Full Timers First. \n MUST BE 16 OR OLDER TO APPLY! \n For IMMEDIATE CONSIDERATION stop into the Philly Pretzel Factory. Located at 3051 Rt 35 Hazlet NJ 07730 \n If you feel your Responsible and Reliable, we want to WORK WITH YOU!!! \n Please apply in Person. 3051 Rt 35 Hazlet NJ 07730",
+          "pay": "$15 to $ 18 an hour",
+          "jobType": "Full time",
+          "benefits": "N/A",
+          "requirements": "Must be 16 years or older, Responsible, and reliable",
+          "category": "retail",
+          "id": 1008
+
+
       }
+      
+      
 ]
