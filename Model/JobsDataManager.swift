@@ -14,9 +14,9 @@ struct JobsDataManager: Hashable, Codable, Identifiable {
     var description: String
     var pay: String
     var jobType: String
-    var benefits: String
+    var benefits: [String]?
     var requirements: String
-    var category: String 
+    var category: String
 }
 
 import Foundation
