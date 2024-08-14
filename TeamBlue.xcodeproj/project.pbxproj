@@ -21,14 +21,14 @@
 		64E670A92C5EAED10068A0B0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64E670A82C5EAED10068A0B0 /* README.md */; };
 		BF0C93EE2C629AA30020C685 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C93ED2C629AA30020C685 /* HomeView.swift */; };
 		BF0C93F42C6A64090020C685 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C93F32C6A64090020C685 /* ProfileView.swift */; };
-		BF50A31E2C6A6406001D280D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A31D2C6A6406001D280D /* SignInView.swift */; };
-		BF50A3202C6BA721001D280D /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A31F2C6BA721001D280D /* CustomTabView.swift */; };
-		BF50A3222C6BAD85001D280D /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A3212C6BAD85001D280D /* TabsView.swift */; };
 		BF0C93F62C6BA7370020C685 /* Jobs.json in Resources */ = {isa = PBXBuildFile; fileRef = BF0C93F52C6BA7370020C685 /* Jobs.json */; };
 		BF0C93F92C6BA8120020C685 /* JobsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C93F82C6BA8120020C685 /* JobsDataManager.swift */; };
 		BF50A31E2C6A6406001D280D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A31D2C6A6406001D280D /* SignInView.swift */; };
+		BF50A3202C6BA721001D280D /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A31F2C6BA721001D280D /* CustomTabView.swift */; };
+		BF50A3222C6BAD85001D280D /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A3212C6BAD85001D280D /* TabsView.swift */; };
 		BF81094B2C6A63F900A01CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */; };
 		BF81094D2C6BA70400A01CFC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF81094C2C6BA70400A01CFC /* WelcomeView.swift */; };
+		BF8109532C6D067F00A01CFC /* JobCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8109522C6D067F00A01CFC /* JobCardView.swift */; };
 		BFFFC6C72C6A794E00FE5A31 /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFFC6C62C6A794E00FE5A31 /* ChangePasswordView.swift */; };
 /* End PBXBuildFile section */
 
@@ -67,14 +67,14 @@
 		64E670A82C5EAED10068A0B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BF0C93ED2C629AA30020C685 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BF0C93F32C6A64090020C685 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		BF50A31D2C6A6406001D280D /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
-		BF50A31F2C6BA721001D280D /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
-		BF50A3212C6BAD85001D280D /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
 		BF0C93F52C6BA7370020C685 /* Jobs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Jobs.json; sourceTree = "<group>"; };
 		BF0C93F82C6BA8120020C685 /* JobsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsDataManager.swift; sourceTree = "<group>"; };
 		BF50A31D2C6A6406001D280D /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		BF50A31F2C6BA721001D280D /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		BF50A3212C6BAD85001D280D /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
 		BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF81094C2C6BA70400A01CFC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		BF8109522C6D067F00A01CFC /* JobCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCardView.swift; sourceTree = "<group>"; };
 		BFFFC6C62C6A794E00FE5A31 /* ChangePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +143,7 @@
 				64C052AF2C63C229001926B6 /* SearchView.swift */,
 				3882ACA62C6299BF0055BF1D /* SettingsView.swift */,
 				BF0C93ED2C629AA30020C685 /* HomeView.swift */,
+				BF8109522C6D067F00A01CFC /* JobCardView.swift */,
 				64E670822C5EAEBC0068A0B0 /* Assets.xcassets */,
 				64E670842C5EAEBC0068A0B0 /* Preview Content */,
 			);
@@ -324,6 +325,7 @@
 				BF50A3222C6BAD85001D280D /* TabsView.swift in Sources */,
 				64E670812C5EAEBA0068A0B0 /* ContentView.swift in Sources */,
 				BF81094D2C6BA70400A01CFC /* WelcomeView.swift in Sources */,
+				BF8109532C6D067F00A01CFC /* JobCardView.swift in Sources */,
 				64E6707F2C5EAEBA0068A0B0 /* TeamBlueApp.swift in Sources */,
 				64C052B02C63C229001926B6 /* SearchView.swift in Sources */,
 				BF50A3202C6BA721001D280D /* CustomTabView.swift in Sources */,
