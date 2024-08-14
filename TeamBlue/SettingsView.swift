@@ -8,46 +8,52 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @AppStorage("isDarkMode") private var isDarkMode: Bool = false
     var body: some View {
         NavigationView {
-            Form  {
-                Section(header: Text("Account Info")) {
-                         NavigationLink(destination: ProfileView()) {
-                             Text("Profile")
-                         }
-                    }
-                Section(header: Text("Jobs")) {
-                        NavigationLink(destination: HomeView()) {
-                            Text("Jobs Accepted")
-                        }
-                    }
-                Section(header: Text("Notifications")) {
-                          Toggle("Enable Notifications", isOn: .constant(true))
-                      }
-                Section(header: Text("App Theme")) {
-                        NavigationLink(destination: HomeView()) {
-                            Text("Change Theme")
-                        }
-                    }
-                Section(header: Text("Help & Support")) {
-                          NavigationLink(destination: HomeView()) {
-                              Text("Help & Support")
-                          }
-                      }
+            List {
                 Section {
-                          Button(action: {
-                              // Add log out functionality here
-                              print("User logged out")
-                          }) {
-                              Text("Log Out")
-                                  .foregroundColor(.red)
-                          }
-                      }
+                    NavigationLink(destination: ProfileView()) {
+                        HStack {
+                            Image(systemName: "person.circle.fill")
+                                .foregroundColor(.blue
+                )
+                                .font(.system(size: 24))
+                            Text("Profile")
+                                .font(.headline)
+                        }
+                    }
+
+                    NavigationLink(destination: ChangePasswordView()) {
+                        HStack {
+                            Image(systemName: "lock.fill")
+                                .foregroundColor(.red)
+                                .font(.system(size: 24))
+                            Text("Change Password")
+                                .font(.headline)
+                        }
+                    }
+                }
+                Section(header: Text("Preferences")) {
+                    Toggle(isOn: $isDarkMode) {
+                        HStack {
+                            Image(systemName: "moon.fill")
+                                .foregroundColor(.purple)
+                                .font(.system(size: 24))
+                            Text("Dark Mode")
+                                .font(.headline)
+                        }
+                    }
+                }
+                .listStyle(GroupedListStyle())
                 .navigationTitle("Settings")
-            }
+                .background(Color(.systemGroupedBackground))
+                .preferredColorScheme(isDarkMode ? .dark : .light)
+                
         }
-                }
-                }
+     }
+    }
+}
 #Preview {
             SettingsView()
         }
