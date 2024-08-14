@@ -17,6 +17,7 @@ struct JobsDataManager: Hashable, Codable, Identifiable {
     var benefits: [String]?
     var requirements: String
     var category: String
+    var image: String
 }
 
 import Foundation
