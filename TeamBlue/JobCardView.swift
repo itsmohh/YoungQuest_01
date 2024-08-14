@@ -77,7 +77,7 @@ struct JobCardView: View {
         jobType: "Full-Time",
         benefits: ["Health Insurance", "401k", "Paid Time Off"],
         requirements: "Experience in Swift, Xcode, and iOS development.",
-        category: "Technology"
+        category: "Technology", image: "Hi"
        
     )
     
