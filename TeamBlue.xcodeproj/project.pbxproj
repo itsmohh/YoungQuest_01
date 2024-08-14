@@ -29,6 +29,7 @@
 		BF50A3242C6D0136001D280D /* JobDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A3232C6D0136001D280D /* JobDetailView.swift */; };
 		BF81094B2C6A63F900A01CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */; };
 		BF81094D2C6BA70400A01CFC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF81094C2C6BA70400A01CFC /* WelcomeView.swift */; };
+		BF8109532C6D067F00A01CFC /* JobCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8109522C6D067F00A01CFC /* JobCardView.swift */; };
 		BFFFC6C72C6A794E00FE5A31 /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFFC6C62C6A794E00FE5A31 /* ChangePasswordView.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		BF50A3232C6D0136001D280D /* JobDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailView.swift; sourceTree = "<group>"; };
 		BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF81094C2C6BA70400A01CFC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		BF8109522C6D067F00A01CFC /* JobCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCardView.swift; sourceTree = "<group>"; };
 		BFFFC6C62C6A794E00FE5A31 /* ChangePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +146,7 @@
 				64C052AF2C63C229001926B6 /* SearchView.swift */,
 				3882ACA62C6299BF0055BF1D /* SettingsView.swift */,
 				BF0C93ED2C629AA30020C685 /* HomeView.swift */,
+				BF8109522C6D067F00A01CFC /* JobCardView.swift */,
 				64E670822C5EAEBC0068A0B0 /* Assets.xcassets */,
 				64E670842C5EAEBC0068A0B0 /* Preview Content */,
 			);
@@ -326,6 +329,7 @@
 				BF50A3222C6BAD85001D280D /* TabsView.swift in Sources */,
 				64E670812C5EAEBA0068A0B0 /* ContentView.swift in Sources */,
 				BF81094D2C6BA70400A01CFC /* WelcomeView.swift in Sources */,
+				BF8109532C6D067F00A01CFC /* JobCardView.swift in Sources */,
 				64E6707F2C5EAEBA0068A0B0 /* TeamBlueApp.swift in Sources */,
 				64C052B02C63C229001926B6 /* SearchView.swift in Sources */,
 				BF50A3202C6BA721001D280D /* CustomTabView.swift in Sources */,
