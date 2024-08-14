@@ -26,6 +26,7 @@
 		BF50A31E2C6A6406001D280D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A31D2C6A6406001D280D /* SignInView.swift */; };
 		BF50A3202C6BA721001D280D /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A31F2C6BA721001D280D /* CustomTabView.swift */; };
 		BF50A3222C6BAD85001D280D /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A3212C6BAD85001D280D /* TabsView.swift */; };
+		BF50A3242C6D0136001D280D /* JobDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A3232C6D0136001D280D /* JobDetailView.swift */; };
 		BF81094B2C6A63F900A01CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */; };
 		BF81094D2C6BA70400A01CFC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF81094C2C6BA70400A01CFC /* WelcomeView.swift */; };
 		BF8109532C6D067F00A01CFC /* JobCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8109522C6D067F00A01CFC /* JobCardView.swift */; };
@@ -72,6 +73,7 @@
 		BF50A31D2C6A6406001D280D /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		BF50A31F2C6BA721001D280D /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		BF50A3212C6BAD85001D280D /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
+		BF50A3232C6D0136001D280D /* JobDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailView.swift; sourceTree = "<group>"; };
 		BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF81094C2C6BA70400A01CFC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		BF8109522C6D067F00A01CFC /* JobCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCardView.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				BF0C93F32C6A64090020C685 /* ProfileView.swift */,
 				BFFFC6C62C6A794E00FE5A31 /* ChangePasswordView.swift */,
 				BF50A31D2C6A6406001D280D /* SignInView.swift */,
+				BF50A3232C6D0136001D280D /* JobDetailView.swift */,
 				BF50A31F2C6BA721001D280D /* CustomTabView.swift */,
 				BF50A3212C6BAD85001D280D /* TabsView.swift */,
 				64C052AD2C63C1FB001926B6 /* BudgetView.swift */,
@@ -318,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3882ACA72C6299C00055BF1D /* SettingsView.swift in Sources */,
+				BF50A3242C6D0136001D280D /* JobDetailView.swift in Sources */,
 				BF0C93F92C6BA8120020C685 /* JobsDataManager.swift in Sources */,
 				BFFFC6C72C6A794E00FE5A31 /* ChangePasswordView.swift in Sources */,
 				BF50A31E2C6A6406001D280D /* SignInView.swift in Sources */,
