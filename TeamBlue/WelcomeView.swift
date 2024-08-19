@@ -39,7 +39,7 @@ struct WelcomeView: View {
 
    
                 }
-                    NavigationLink(destination:HomeView()) {
+                    NavigationLink(destination:TabsView()) {
                         Text("Get Started")
                             .bold()
                             .frame(width: 200, height: 50)
