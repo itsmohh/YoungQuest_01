@@ -27,7 +27,7 @@ struct TabsView: View {
             CustomTabView(tabSelection: $tabSelection)
         }
         .ignoresSafeArea()
-        
+        .navigationBarBackButtonHidden(true)
     }
 }
 
