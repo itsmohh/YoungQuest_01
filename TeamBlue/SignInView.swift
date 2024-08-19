@@ -87,7 +87,8 @@ var body: some View {
             Alert(title: Text("Login"), message: Text(alertMessage), dismissButton: .default(Text("OK")))
         }
         .navigationDestination(isPresented: $isAuthenticated) {
-            TabsView()
+            WelcomeView()
+                .navigationBarBackButtonHidden(true)
         }
     }
 }
