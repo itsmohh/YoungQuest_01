@@ -5,7 +5,6 @@
 //  Created by Gcode on 8/6/24.
 //
 
-
 import SwiftUI
 
 struct HomeView: View {
@@ -28,6 +27,25 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack {
+                // Logo
+                GeometryReader { geometry in
+                    HStack {
+                        Text("Job Listings")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .padding()
+                            
+                        Spacer()
+                        Image("logo") // Replace with your logo image name
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: min(geometry.size.width * 0.5, 200), height: 100)
+                            .padding(.top, 16) // Optional padding from the top
+                        
+                    }
+                }
+                .frame(height: 100) // Set a fixed height to the GeometryReader to ensure the logo has a space
+               
                 // Category Picker
                 Picker("Select Category", selection: $selectedCategory) {
                     ForEach(categories, id: \.self) { category in
@@ -36,8 +54,6 @@ struct HomeView: View {
                 }
                 .pickerStyle(SegmentedPickerStyle())
                 .padding()
-                
-               
                 
                 // Job Cards
                 ScrollView {
@@ -51,7 +67,7 @@ struct HomeView: View {
                     }
                 }
             }
-            .navigationTitle("Job Listings")
+//            .navigationTitle("Job Listings")
             .background(Color(.systemGroupedBackground).edgesIgnoringSafeArea(.all))
         }
     }

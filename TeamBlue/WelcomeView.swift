@@ -73,7 +73,9 @@ struct WelcomeView: View {
                             .background(Color.blue)
                             .foregroundColor(.white)
                             .cornerRadius(10)
+                            
                     }
+                    
                 }
                 .onAppear {
                     withAnimation(.linear(duration: 4).repeatForever(autoreverses: false)) {
@@ -87,4 +89,5 @@ struct WelcomeView: View {
 
 #Preview {
     WelcomeView()
+       
 }
