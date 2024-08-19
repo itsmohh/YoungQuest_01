@@ -58,10 +58,7 @@
         "description": "RU Big Ten Football Parking Attendants/Cashiers Needed! Part-time, Overtime after 40 hours. Kick the football season off by working at the birthplace of college football in Piscataway, NJ, and earn an extra paycheck.",
         "pay": "$18 an hour",
         "jobType": "Part-time, temporary",
-        "benefits": [
-            "N/A",
-            "N/A"
-        ],
+        "benefits": ["N/A","N/A"],
         "requirements": "Must have the ability to communicate effectively with great customer service skills. Must be able to work in a variety of weather. Must be able to do simple math if cashier. Greet all patrons attending football games. Must wear a proper uniform (i.e. Plain White Polo, with Khaki pants). Screen for various parking passes.",
         "category": "Parking",
         "id": 1003,
@@ -73,10 +70,7 @@
         "description": "We are an all-inclusive organization joined together by a shared commitment to nurturing the potential of kids, promoting healthy living, and fostering a sense of social responsibility. The Metro YMCA of the Oranges has an exciting opportunity for a highly motivated, mission-driven candidate to join our team.",
         "pay": "Not given, must ask in person",
         "jobType": "Part-time",
-        "benefits": [
-            "N/A",
-            "N/A"
-        ],
+        "benefits": ["N/A","N/A"],
         "requirements": "High school student or equivalent. Previous experience working with children. At least 15 years of age. Previous experience with diverse populations preferred.",
         "category": "Assistant",
         "id": 1004,
@@ -118,7 +112,7 @@
     },
     {
         "name": "Student Aide",
-        "location": "Madison Area YMCA, Madison, NJ 07940",
+        "location": "Madison Area YMCA",
         "description": "The F.M. Kirby Children's Center of the Madison Area YMCA is looking for part-time Student Aides to work in our classrooms. Student Aides assist classroom teachers to implement the Center's development program, maintain classroom and joint-use space, and assist in supervising and engaging with the children.",
         "pay": "$15.13 - $16.00 per hour",
         "jobType": "Part-time",
@@ -144,82 +138,5 @@
         "category": "Retail",
         "id": 1008,
         "image": "apple"
-    },
-    
-    {
-        "name": "Gong Cha Barista",
-        "location": "1 American Dream Way, East Rutherford, NJ 07073",
-        "description": "Must be available 10am-9pm and must work weekends.",
-        "pay": "$15.50 per hour",
-        "jobType": "Part time or Full Time",
-        "benefits": [
-            "Employee discount",
-            "Flexible schedule",
-            "Paid training"
-        ],
-        "requirements": "Be 16 years or older. Fluent in English. Have work authorization/employment eligibility in US.",
-        "category": "Retail"
-        "id": 1009,
-        "image": "apple"
-    },
-    
-    {
-        "name": "Child Watch Caregiver",
-        "location": "Lakeland Hills Ymca. 100 Fanny Road, Mountain Lakes, NJ 07046",
-        "description": "A babysitter's job is to provide a happy, clean, and safe environment for all children who are under his/her care. Babysitters are to provide general supervision while children participate in unstructured supervised playtime. It is his/her job to make parents feel comfortable leaving their children.",
-        "pay": "Not provided by site. Must ask in person.",
-        "jobType": "Part time",
-        "benefits":["N/A"],
-        "requirements": "Must be 16 years of age. Must have experience with children 6 weeks 6 years old. Must obtain or present certificate for Adult/Infant/Child CPR. While performing the duties of this job, the employee is regularly required to stand; walk; reach with hand or arms; lift and/or move up to 40 pounds; climb or balance; and stoop, kneel, crouch, or crawl. The employee is frequently required to sit; use hands to finger, handle, or feel objects, tools, or controls; and talk or hear. Specific vision abilities required by this job include close vision, distance vision, peripheral vision, depth perception, and the ability to adjust focus.",
-        "category": "Safety",
-        "id": 1010,
-        "image": "apple"
-    },
-    
-    {
-        "name": "Retail Customer Service Team Member(Micheals)",
-        "location": "17 Hampton House Road, Newton, NJ 08827",
-        "description": "Deliver friendly customer service, help customers shop our store and find what they're looking for. Ensure all customers receive a fast and friendly checkout experience. Complete truck unload and merchandise duties throughout the store including maintaining store recovery standards to deliver our Brand Promises.",
-        "pay": "$16-$18.80 an hour"
-        "jobType": "Part time",
-        "benefits": ["N/A"],
-        "requirements": "Applicants in the U.S. must satisfy federal, state, and local legal requirements of the job. Michaels requires all team members in this role to be at least sixteen (16) years or older.",
-        "category": "Retail",
-        "id": 1011,
-        "image": "apple"
-    },
-    
-    {
-        "name": "Ice Cream Scooper"
-        "location": "Belle's Ice Cream Shop. 300 Morris Avenue, Spring Lake, NJ 07762"
-        "description": "Duties include serving customers (scooping ice cream, making sundaes, shakes and other frozen desserts), cleaning/organizing the shop, preparing orders for Doordash, Grubhub and other delivery services that come in online, baking cookies/brownies and making waffle cones."
-        "pay": "$15.13 per hour"
-        "jobType": "Part time"
-        "benefits": [
-            "Employee discount",
-            "Flexible schedule",
-            "Paid training"
-        ],
-        "requirements": "Minimum age: 16 yrs or older. Serve our customers with a smile. Create and serve delicious Ice Cream treats (cones, shakes, sundaes, cyclones, etc). Make Waffle Cones fresh each day. Help keep shop organized and clean.",
-        "category": "Retail",
-        "id": 1012,
-        "image": "apple"
-    },
-    
-    {
-        "name": "Court Monitor",
-        "location": "Sky Zone Lakewood. 1001 New Hampshire Avenue, Lakewood, NJ 08701",
-        "description": "The Court Monitor will work directly with Guests, providing courteous, friendly, and professional assistance while enforcing Sky Zone safety standards. In addition to overseeing the trampoline courts and activity areas, the Court Monitor will be expected to ensure the park is clean and well-maintained. This includes regular cleaning of the park's facilities and play areas to ensure a safe and enjoyable environment. The Court Monitor’s main duty is to oversee and maintain a positive Guest Experience, managing risk and enhancing the overall play experience as Guests explore the park. The Court Monitor is in place to inspire a “wow” experience for each Guest.",
-        "pay": "$15.13 - $15.50 per hour",
-        "jobType": "$15.13 - $15.50 per hour",
-        "benefits": [
-            "Employee discount",
-            "Flexible schedule"
-        ],
-        "requirements": "Must be 16-years old or older. Ability to speak in front of groups. Ability to project voice and be heard in a loud environment. Ability to enforce rules. Ability to handle and resolve recurring problems. Pay attention to the court at all times and be interactive with the participants. Have full knowledge of emergency procedures and assist in implementing them. Availability Requirements: Weekends are required. Additional times and days are optional.",
-        "category": "Safety",
-        "id": 1013,
-        "image": "apple"
     }
-    
 ]
