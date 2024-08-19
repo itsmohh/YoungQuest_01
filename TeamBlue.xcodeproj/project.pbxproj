@@ -203,8 +203,8 @@
 				BF50A3212C6BAD85001D280D /* TabsView.swift */,
 				BF50A31F2C6BA721001D280D /* CustomTabView.swift */,
 				BF0C93ED2C629AA30020C685 /* HomeView.swift */,
-				64C052AF2C63C229001926B6 /* SearchView.swift */,
 				64C052AD2C63C1FB001926B6 /* ExpensesView.swift */,
+				64C052AF2C63C229001926B6 /* SearchView.swift */,
 				3882ACA62C6299BF0055BF1D /* SettingsView.swift */,
 			);
 			path = Tabs;
@@ -538,6 +538,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TeamBlue/Preview Content\"";
+				DEVELOPMENT_TEAM = 72NRSX3F2G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -567,6 +568,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TeamBlue/Preview Content\"";
+				DEVELOPMENT_TEAM = 72NRSX3F2G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

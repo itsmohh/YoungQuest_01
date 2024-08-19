@@ -25,6 +25,16 @@ struct SettingsView: View {
                         }
                     }
 
+                    NavigationLink(destination: ExpensesView(currentTab: .constant("Expenses"))) {
+                        HStack {
+                            Image("budget")
+                                .foregroundColor(.blue)
+                                .font(.system(size: 24))
+                            Text("Budget Category")
+                                .font(.headline)
+                        }
+                    }
+                    
                     NavigationLink(destination: ChangePasswordView()) {
                         HStack {
                             Image(systemName: "lock.fill")

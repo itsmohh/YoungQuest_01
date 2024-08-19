@@ -13,5 +13,6 @@ struct TeamBlueApp: App {
         WindowGroup {
             SignInView()
         }
+        .modelContainer(for: [Expense.self, Category.self])
     }
 }
