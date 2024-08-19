@@ -17,7 +17,7 @@ struct TabsView: View {
             SearchView()
                 .tag(2)
             
-            BudgetView()
+            ExpensesView(currentTab: .constant("Expenses"))
                 .tag(3)
             
             SettingsView()
