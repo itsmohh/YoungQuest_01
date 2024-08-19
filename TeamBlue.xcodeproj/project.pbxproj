@@ -36,6 +36,7 @@
 		BF81094D2C6BA70400A01CFC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF81094C2C6BA70400A01CFC /* WelcomeView.swift */; };
 		BF8109532C6D067F00A01CFC /* JobCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8109522C6D067F00A01CFC /* JobCardView.swift */; };
 		BFFFC6C72C6A794E00FE5A31 /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFFC6C62C6A794E00FE5A31 /* ChangePasswordView.swift */; };
+		BFFFC6CB2C7395BB00FE5A31 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFFC6CA2C7395BB00FE5A31 /* CategoriesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		BF81094C2C6BA70400A01CFC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		BF8109522C6D067F00A01CFC /* JobCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCardView.swift; sourceTree = "<group>"; };
 		BFFFC6C62C6A794E00FE5A31 /* ChangePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
+		BFFFC6CA2C7395BB00FE5A31 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				BF50A32F2C738E54001D280D /* ExpenseCardView.swift */,
+				BFFFC6CA2C7395BB00FE5A31 /* CategoriesView.swift */,
 				BF50A3312C738EF0001D280D /* AddExpenseView.swift */,
 			);
 			path = BudgetTab;
@@ -359,6 +362,7 @@
 				BF50A3302C738E54001D280D /* ExpenseCardView.swift in Sources */,
 				BF0C93EE2C629AA30020C685 /* HomeView.swift in Sources */,
 				BF50A3322C738EF0001D280D /* AddExpenseView.swift in Sources */,
+				BFFFC6CB2C7395BB00FE5A31 /* CategoriesView.swift in Sources */,
 				BF50A3222C6BAD85001D280D /* TabsView.swift in Sources */,
 				BF50A3282C738AFC001D280D /* Category.swift in Sources */,
 				64E670812C5EAEBA0068A0B0 /* ContentView.swift in Sources */,
