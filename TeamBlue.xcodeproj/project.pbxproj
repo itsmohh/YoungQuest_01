@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3882ACA72C6299C00055BF1D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3882ACA62C6299BF0055BF1D /* SettingsView.swift */; };
 		64C052AC2C62A922001926B6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 64C052AB2C62A922001926B6 /* .gitignore */; };
-		64C052AE2C63C1FB001926B6 /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C052AD2C63C1FB001926B6 /* BudgetView.swift */; };
+		64C052AE2C63C1FB001926B6 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C052AD2C63C1FB001926B6 /* ExpensesView.swift */; };
 		64C052B02C63C229001926B6 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C052AF2C63C229001926B6 /* SearchView.swift */; };
 		64E6707F2C5EAEBA0068A0B0 /* TeamBlueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E6707E2C5EAEBA0068A0B0 /* TeamBlueApp.swift */; };
 		64E670812C5EAEBA0068A0B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E670802C5EAEBA0068A0B0 /* ContentView.swift */; };
@@ -59,7 +59,7 @@
 /* Begin PBXFileReference section */
 		3882ACA62C6299BF0055BF1D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		64C052AB2C62A922001926B6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		64C052AD2C63C1FB001926B6 /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
+		64C052AD2C63C1FB001926B6 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
 		64C052AF2C63C229001926B6 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		64E6707B2C5EAEBA0068A0B0 /* TeamBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E6707E2C5EAEBA0068A0B0 /* TeamBlueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamBlueApp.swift; sourceTree = "<group>"; };
@@ -204,7 +204,7 @@
 				BF50A31F2C6BA721001D280D /* CustomTabView.swift */,
 				BF0C93ED2C629AA30020C685 /* HomeView.swift */,
 				64C052AF2C63C229001926B6 /* SearchView.swift */,
-				64C052AD2C63C1FB001926B6 /* BudgetView.swift */,
+				64C052AD2C63C1FB001926B6 /* ExpensesView.swift */,
 				3882ACA62C6299BF0055BF1D /* SettingsView.swift */,
 			);
 			path = Tabs;
@@ -374,7 +374,7 @@
 				BF50A3202C6BA721001D280D /* CustomTabView.swift in Sources */,
 				BF50A32D2C738C2A001D280D /* GroupedExpense.swift in Sources */,
 				BF0C93F42C6A64090020C685 /* ProfileView.swift in Sources */,
-				64C052AE2C63C1FB001926B6 /* BudgetView.swift in Sources */,
+				64C052AE2C63C1FB001926B6 /* ExpensesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
