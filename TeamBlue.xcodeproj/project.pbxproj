@@ -27,6 +27,11 @@
 		BF50A3202C6BA721001D280D /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A31F2C6BA721001D280D /* CustomTabView.swift */; };
 		BF50A3222C6BAD85001D280D /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A3212C6BAD85001D280D /* TabsView.swift */; };
 		BF50A3242C6D0136001D280D /* JobDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A3232C6D0136001D280D /* JobDetailView.swift */; };
+		BF50A3282C738AFC001D280D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A3272C738AFC001D280D /* Category.swift */; };
+		BF50A32B2C738BF0001D280D /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A32A2C738BF0001D280D /* Expense.swift */; };
+		BF50A32D2C738C2A001D280D /* GroupedExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A32C2C738C2A001D280D /* GroupedExpense.swift */; };
+		BF50A3302C738E54001D280D /* ExpenseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A32F2C738E54001D280D /* ExpenseCardView.swift */; };
+		BF50A3322C738EF0001D280D /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A3312C738EF0001D280D /* AddExpenseView.swift */; };
 		BF81094B2C6A63F900A01CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */; };
 		BF81094D2C6BA70400A01CFC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF81094C2C6BA70400A01CFC /* WelcomeView.swift */; };
 		BF8109532C6D067F00A01CFC /* JobCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8109522C6D067F00A01CFC /* JobCardView.swift */; };
@@ -74,6 +79,11 @@
 		BF50A31F2C6BA721001D280D /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		BF50A3212C6BAD85001D280D /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
 		BF50A3232C6D0136001D280D /* JobDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailView.swift; sourceTree = "<group>"; };
+		BF50A3272C738AFC001D280D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		BF50A32A2C738BF0001D280D /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		BF50A32C2C738C2A001D280D /* GroupedExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedExpense.swift; sourceTree = "<group>"; };
+		BF50A32F2C738E54001D280D /* ExpenseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCardView.swift; sourceTree = "<group>"; };
+		BF50A3312C738EF0001D280D /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
 		BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF81094C2C6BA70400A01CFC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		BF8109522C6D067F00A01CFC /* JobCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCardView.swift; sourceTree = "<group>"; };
@@ -108,10 +118,12 @@
 		64E670722C5EAEBA0068A0B0 = {
 			isa = PBXGroup;
 			children = (
+				BF50A32E2C738E20001D280D /* BudgetTab */,
 				BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */,
 				64C052AB2C62A922001926B6 /* .gitignore */,
 				64E670A82C5EAED10068A0B0 /* README.md */,
 				BF0C93F72C6BA7EC0020C685 /* Model */,
+				BF50A3292C738B89001D280D /* Tabs */,
 				64E6707D2C5EAEBA0068A0B0 /* TeamBlue */,
 				64E6708E2C5EAEBD0068A0B0 /* TeamBlueTests */,
 				64E670982C5EAEBD0068A0B0 /* TeamBlueUITests */,
@@ -140,12 +152,6 @@
 				BFFFC6C62C6A794E00FE5A31 /* ChangePasswordView.swift */,
 				BF50A31D2C6A6406001D280D /* SignInView.swift */,
 				BF50A3232C6D0136001D280D /* JobDetailView.swift */,
-				BF50A31F2C6BA721001D280D /* CustomTabView.swift */,
-				BF50A3212C6BAD85001D280D /* TabsView.swift */,
-				64C052AD2C63C1FB001926B6 /* BudgetView.swift */,
-				64C052AF2C63C229001926B6 /* SearchView.swift */,
-				3882ACA62C6299BF0055BF1D /* SettingsView.swift */,
-				BF0C93ED2C629AA30020C685 /* HomeView.swift */,
 				BF8109522C6D067F00A01CFC /* JobCardView.swift */,
 				64E670822C5EAEBC0068A0B0 /* Assets.xcassets */,
 				64E670842C5EAEBC0068A0B0 /* Preview Content */,
@@ -182,8 +188,33 @@
 			isa = PBXGroup;
 			children = (
 				BF0C93F82C6BA8120020C685 /* JobsDataManager.swift */,
+				BF50A3272C738AFC001D280D /* Category.swift */,
+				BF50A32A2C738BF0001D280D /* Expense.swift */,
+				BF50A32C2C738C2A001D280D /* GroupedExpense.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BF50A3292C738B89001D280D /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				BF50A3212C6BAD85001D280D /* TabsView.swift */,
+				BF50A31F2C6BA721001D280D /* CustomTabView.swift */,
+				BF0C93ED2C629AA30020C685 /* HomeView.swift */,
+				64C052AF2C63C229001926B6 /* SearchView.swift */,
+				64C052AD2C63C1FB001926B6 /* BudgetView.swift */,
+				3882ACA62C6299BF0055BF1D /* SettingsView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		BF50A32E2C738E20001D280D /* BudgetTab */ = {
+			isa = PBXGroup;
+			children = (
+				BF50A32F2C738E54001D280D /* ExpenseCardView.swift */,
+				BF50A3312C738EF0001D280D /* AddExpenseView.swift */,
+			);
+			path = BudgetTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,14 +356,19 @@
 				BF0C93F92C6BA8120020C685 /* JobsDataManager.swift in Sources */,
 				BFFFC6C72C6A794E00FE5A31 /* ChangePasswordView.swift in Sources */,
 				BF50A31E2C6A6406001D280D /* SignInView.swift in Sources */,
+				BF50A3302C738E54001D280D /* ExpenseCardView.swift in Sources */,
 				BF0C93EE2C629AA30020C685 /* HomeView.swift in Sources */,
+				BF50A3322C738EF0001D280D /* AddExpenseView.swift in Sources */,
 				BF50A3222C6BAD85001D280D /* TabsView.swift in Sources */,
+				BF50A3282C738AFC001D280D /* Category.swift in Sources */,
 				64E670812C5EAEBA0068A0B0 /* ContentView.swift in Sources */,
 				BF81094D2C6BA70400A01CFC /* WelcomeView.swift in Sources */,
 				BF8109532C6D067F00A01CFC /* JobCardView.swift in Sources */,
 				64E6707F2C5EAEBA0068A0B0 /* TeamBlueApp.swift in Sources */,
+				BF50A32B2C738BF0001D280D /* Expense.swift in Sources */,
 				64C052B02C63C229001926B6 /* SearchView.swift in Sources */,
 				BF50A3202C6BA721001D280D /* CustomTabView.swift in Sources */,
+				BF50A32D2C738C2A001D280D /* GroupedExpense.swift in Sources */,
 				BF0C93F42C6A64090020C685 /* ProfileView.swift in Sources */,
 				64C052AE2C63C1FB001926B6 /* BudgetView.swift in Sources */,
 			);
