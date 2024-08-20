@@ -27,51 +27,42 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack {
-                // Logo
                 GeometryReader { geometry in
-                    HStack {
                         Text("Job Listings")
-                            .font(.title2)
+                        .font(.largeTitle)
                             .fontWeight(.bold)
                             .padding()
-                            
-                        Spacer()
-                        Image("logo") // Replace with your logo image name
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: min(geometry.size.width * 0.5, 200), height: 100)
-                            .padding(.top, 16) // Optional padding from the top
                         
                     }
-                }
-                .frame(height: 100) // Set a fixed height to the GeometryReader to ensure the logo has a space
-               
-                // Category Picker
-                Picker("Select Category", selection: $selectedCategory) {
-                    ForEach(categories, id: \.self) { category in
-                        Text(category).tag(category)
+                    .frame(height: 50) // Set a fixed height to the GeometryReader to ensure the logo has a space
+                    
+                    // Category Picker
+                    Picker("Select Category", selection: $selectedCategory) {
+                        ForEach(categories, id: \.self) { category in
+                            Text(category).tag(category)
+                        }
                     }
-                }
-                .pickerStyle(SegmentedPickerStyle())
-                .padding()
-                
-                // Job Cards
-                ScrollView {
-                    LazyVStack {
-                        ForEach(filteredJobs) { job in
-                            NavigationLink(destination: JobDetailView(job: job)) {
-                                JobCardView(job: job)
-                                    .padding()
+                    .pickerStyle(SegmentedPickerStyle())
+                    .padding()
+                    
+                    // Job Cards
+                    ScrollView {
+                        LazyVStack {
+                            ForEach(filteredJobs) { job in
+                                NavigationLink(destination: JobDetailView(job: job)) {
+                                    JobCardView(job: job)
+                                        .padding()
+                                }
                             }
                         }
                     }
                 }
+                //            .navigationTitle("Job Listings")
+                .background(Color(.systemGroupedBackground).edgesIgnoringSafeArea(.all))
             }
-//            .navigationTitle("Job Listings")
-            .background(Color(.systemGroupedBackground).edgesIgnoringSafeArea(.all))
         }
     }
-}
+
 
 #Preview {
     HomeView()
