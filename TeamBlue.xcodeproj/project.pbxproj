@@ -33,6 +33,10 @@
 		BF50A32D2C738C2A001D280D /* GroupedExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A32C2C738C2A001D280D /* GroupedExpense.swift */; };
 		BF50A3302C738E54001D280D /* ExpenseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A32F2C738E54001D280D /* ExpenseCardView.swift */; };
 		BF50A3322C738EF0001D280D /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A3312C738EF0001D280D /* AddExpenseView.swift */; };
+		BF50A3352C74E81E001D280D /* ChatContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A3342C74E81E001D280D /* ChatContentView.swift */; };
+		BF50A3372C74E85E001D280D /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A3362C74E85E001D280D /* ChatViewModel.swift */; };
+		BF50A3392C74E884001D280D /* OpenAiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A3382C74E884001D280D /* OpenAiService.swift */; };
+		BF50A33B2C74EA7D001D280D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A33A2C74EA7D001D280D /* Constants.swift */; };
 		BF81094B2C6A63F900A01CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */; };
 		BF81094D2C6BA70400A01CFC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF81094C2C6BA70400A01CFC /* WelcomeView.swift */; };
 		BF8109532C6D067F00A01CFC /* JobCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8109522C6D067F00A01CFC /* JobCardView.swift */; };
@@ -86,6 +90,10 @@
 		BF50A32C2C738C2A001D280D /* GroupedExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedExpense.swift; sourceTree = "<group>"; };
 		BF50A32F2C738E54001D280D /* ExpenseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCardView.swift; sourceTree = "<group>"; };
 		BF50A3312C738EF0001D280D /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		BF50A3342C74E81E001D280D /* ChatContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatContentView.swift; sourceTree = "<group>"; };
+		BF50A3362C74E85E001D280D /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		BF50A3382C74E884001D280D /* OpenAiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAiService.swift; sourceTree = "<group>"; };
+		BF50A33A2C74EA7D001D280D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF81094C2C6BA70400A01CFC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		BF8109522C6D067F00A01CFC /* JobCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCardView.swift; sourceTree = "<group>"; };
@@ -122,6 +130,7 @@
 		64E670722C5EAEBA0068A0B0 = {
 			isa = PBXGroup;
 			children = (
+				BF50A3332C74E749001D280D /* ChatBot */,
 				BF50A32E2C738E20001D280D /* BudgetTab */,
 				BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */,
 				64C052AB2C62A922001926B6 /* .gitignore */,
@@ -220,6 +229,17 @@
 				BF50A3312C738EF0001D280D /* AddExpenseView.swift */,
 			);
 			path = BudgetTab;
+			sourceTree = "<group>";
+		};
+		BF50A3332C74E749001D280D /* ChatBot */ = {
+			isa = PBXGroup;
+			children = (
+				BF50A3342C74E81E001D280D /* ChatContentView.swift */,
+				BF50A3362C74E85E001D280D /* ChatViewModel.swift */,
+				BF50A3382C74E884001D280D /* OpenAiService.swift */,
+				BF50A33A2C74EA7D001D280D /* Constants.swift */,
+			);
+			path = ChatBot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,12 +382,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF50A33B2C74EA7D001D280D /* Constants.swift in Sources */,
 				3882ACA72C6299C00055BF1D /* SettingsView.swift in Sources */,
 				BF50A3242C6D0136001D280D /* JobDetailView.swift in Sources */,
 				BF0C93F92C6BA8120020C685 /* JobsDataManager.swift in Sources */,
+				BF50A3392C74E884001D280D /* OpenAiService.swift in Sources */,
 				BFFFC6C72C6A794E00FE5A31 /* ChangePasswordView.swift in Sources */,
 				BF50A31E2C6A6406001D280D /* SignInView.swift in Sources */,
 				BF50A3302C738E54001D280D /* ExpenseCardView.swift in Sources */,
+				BF50A3372C74E85E001D280D /* ChatViewModel.swift in Sources */,
 				BF0C93EE2C629AA30020C685 /* HomeView.swift in Sources */,
 				BF50A3322C738EF0001D280D /* AddExpenseView.swift in Sources */,
 				BFFFC6CB2C7395BB00FE5A31 /* CategoriesView.swift in Sources */,
@@ -376,6 +399,7 @@
 				64E670812C5EAEBA0068A0B0 /* ContentView.swift in Sources */,
 				BF81094D2C6BA70400A01CFC /* WelcomeView.swift in Sources */,
 				BF8109532C6D067F00A01CFC /* JobCardView.swift in Sources */,
+				BF50A3352C74E81E001D280D /* ChatContentView.swift in Sources */,
 				64E6707F2C5EAEBA0068A0B0 /* TeamBlueApp.swift in Sources */,
 				BF50A32B2C738BF0001D280D /* Expense.swift in Sources */,
 				64C052B02C63C229001926B6 /* SearchView.swift in Sources */,
