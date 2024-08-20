@@ -6,7 +6,7 @@
 //
 
 import Foundation
-extension ContentView {
+extension ChatContentView {
     class ViewModel: ObservableObject {
         @Published var messages: [Message] = []
         

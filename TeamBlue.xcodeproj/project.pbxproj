@@ -36,6 +36,7 @@
 		BF50A3352C74E81E001D280D /* ChatContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A3342C74E81E001D280D /* ChatContentView.swift */; };
 		BF50A3372C74E85E001D280D /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A3362C74E85E001D280D /* ChatViewModel.swift */; };
 		BF50A3392C74E884001D280D /* OpenAiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A3382C74E884001D280D /* OpenAiService.swift */; };
+		BF50A33B2C74EA7D001D280D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50A33A2C74EA7D001D280D /* Constants.swift */; };
 		BF81094B2C6A63F900A01CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */; };
 		BF81094D2C6BA70400A01CFC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF81094C2C6BA70400A01CFC /* WelcomeView.swift */; };
 		BF8109532C6D067F00A01CFC /* JobCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8109522C6D067F00A01CFC /* JobCardView.swift */; };
@@ -92,6 +93,7 @@
 		BF50A3342C74E81E001D280D /* ChatContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatContentView.swift; sourceTree = "<group>"; };
 		BF50A3362C74E85E001D280D /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		BF50A3382C74E884001D280D /* OpenAiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAiService.swift; sourceTree = "<group>"; };
+		BF50A33A2C74EA7D001D280D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BF81094A2C6A63F900A01CFC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF81094C2C6BA70400A01CFC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		BF8109522C6D067F00A01CFC /* JobCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCardView.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				BF50A3342C74E81E001D280D /* ChatContentView.swift */,
 				BF50A3362C74E85E001D280D /* ChatViewModel.swift */,
 				BF50A3382C74E884001D280D /* OpenAiService.swift */,
+				BF50A33A2C74EA7D001D280D /* Constants.swift */,
 			);
 			path = ChatBot;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF50A33B2C74EA7D001D280D /* Constants.swift in Sources */,
 				3882ACA72C6299C00055BF1D /* SettingsView.swift in Sources */,
 				BF50A3242C6D0136001D280D /* JobDetailView.swift in Sources */,
 				BF0C93F92C6BA8120020C685 /* JobsDataManager.swift in Sources */,
