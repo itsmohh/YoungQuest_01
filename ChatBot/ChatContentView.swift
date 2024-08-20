@@ -30,11 +30,15 @@ struct ChatContentView: View {
     }
     func messageView(message: Message) -> some View {
         HStack {
-            if message.role == .user { Spacer()}
+            if message.role == .user { Spacer() }
             Text(message.content)
-            if message.role == .assistant { Spacer()}
+                .padding()
+                .background(message.role == .assistant ? Color.green.opacity(0.2) : Color.blue.opacity(0.2))
+                .cornerRadius(10)
+            if message.role == .assistant { Spacer() }
         }
     }
+
 }
 
 #Preview {
