@@ -26,55 +26,56 @@ struct SettingsView: View {
                     }
                     
                     NavigationLink(destination: ExpensesView(currentTab: .constant("Expenses"))) {
-
-                    NavigationLink(destination: CategoriesView()) {
+                        
+                        NavigationLink(destination: CategoriesView()) {
+                            HStack {
+                                Image("budget")
+                                    .foregroundColor(.blue)
+                                    .font(.system(size: 24))
+                                Text("Budget Category")
+                                    .font(.headline)
+                            }
+                        }
+                        
+                        NavigationLink(destination: ChangePasswordView()) {
+                            HStack {
+                                Image(systemName: "lock.fill")
+                                    .foregroundColor(.red)
+                                    .font(.system(size: 24))
+                                Text("Change Password")
+                                    .font(.headline)
+                            }
+                        }
+                    }
+                    Section(header: Text("Job")) {NavigationLink(destination: AcceptedJobsView()) {
                         HStack {
-                            Image("budget")
-                                .foregroundColor(.blue)
+                            Image("Check")
+                                .foregroundColor(.green)
                                 .font(.system(size: 24))
-                            Text("Budget Category")
+                            Text("AcceptedJobs")
                                 .font(.headline)
+                        }
+                    }
+                        
+                    }
+                    
+                    Section(header: Text("Preferences")) {
+                        Toggle(isOn: $isDarkMode) {
+                            HStack {
+                                Image(systemName: "moon.fill")
+                                    .foregroundColor(.purple)
+                                    .font(.system(size: 24))
+                                Text("Dark Mode")
+                                    .font(.headline)
+                            }
                         }
                     }
                     
-                    NavigationLink(destination: ChangePasswordView()) {
-                        HStack {
-                            Image(systemName: "lock.fill")
-                                .foregroundColor(.red)
-                                .font(.system(size: 24))
-                            Text("Change Password")
-                                .font(.headline)
-                        }
-                    }
+                    .listStyle(GroupedListStyle())
+                    .navigationTitle("Settings")
+                    .background(Color(.systemGroupedBackground))
+                    .preferredColorScheme(isDarkMode ? .dark : .light) // Apply the color scheme based on the toggle state
                 }
-                Section(header: Text("Job")) {NavigationLink(destination: AcceptedJobsView()) {
-                    HStack {
-                        Image("Check")
-                            .foregroundColor(.green)
-                            .font(.system(size: 24))
-                        Text("AcceptedJobs")
-                            .font(.headline)
-                    }
-                }
-                    
-                }
-                
-                Section(header: Text("Preferences")) {
-                    Toggle(isOn: $isDarkMode) {
-                        HStack {
-                            Image(systemName: "moon.fill")
-                                .foregroundColor(.purple)
-                                .font(.system(size: 24))
-                            Text("Dark Mode")
-                                .font(.headline)
-                        }
-                    }
-                }
-              
-                .listStyle(GroupedListStyle())
-                .navigationTitle("Settings")
-                .background(Color(.systemGroupedBackground))
-                .preferredColorScheme(isDarkMode ? .dark : .light) // Apply the color scheme based on the toggle state
             }
         }
     }
