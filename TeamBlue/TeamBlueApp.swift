@@ -11,7 +11,7 @@ import SwiftUI
 struct TeamBlueApp: App {
     var body: some Scene {
         WindowGroup {
-            SignInView()
+            WelcomeView()
         }
         .modelContainer(for: [Expense.self, Category.self])
     }
