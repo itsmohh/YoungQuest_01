@@ -27,14 +27,16 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack {
-                GeometryReader { geometry in
-                        Text("Job Listings")
-                        .font(.largeTitle)
-                            .fontWeight(.bold)
-                            .padding()
-                        
-                    }
-                    .frame(height: 50) // Set a fixed height to the GeometryReader to ensure the logo has a space
+//                GeometryReader { geometry in
+//                        Text("Job Listings")
+//                        
+//                        .font(.largeTitle)
+//                            .fontWeight(.bold)
+//                            .multilineTextAlignment(.center)
+//                            .padding()
+//                        
+//                    }
+//                    .frame(height: 50) // Set a fixed height to the GeometryReader to ensure the logo has a space
                     
                     // Category Picker
                     Picker("Select Category", selection: $selectedCategory) {
@@ -57,7 +59,8 @@ struct HomeView: View {
                         }
                     }
                 }
-                //            .navigationTitle("Job Listings")
+                            .navigationTitle("Job Listings")
+                            .navigationBarTitleDisplayMode(.inline)
                 .background(Color(.systemGroupedBackground).edgesIgnoringSafeArea(.all))
             }
         }

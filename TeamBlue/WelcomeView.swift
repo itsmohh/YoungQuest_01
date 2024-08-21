@@ -66,7 +66,7 @@ struct WelcomeView: View {
                     
                     Spacer().frame(height: 90)
                     
-                    NavigationLink(destination: TabsView()) {
+                    NavigationLink(destination: MainView()) {
                         Text("Get Started")
                             .bold()
                             .frame(width: 200, height: 50)
