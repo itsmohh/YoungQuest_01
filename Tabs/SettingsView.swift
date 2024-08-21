@@ -25,7 +25,7 @@ struct SettingsView: View {
                         }
                     }
 
-                    NavigationLink(destination: ExpensesView(currentTab: .constant("Expenses"))) {
+                    NavigationLink(destination: CategoriesView()) {
                         HStack {
                             Image("budget")
                                 .foregroundColor(.blue)

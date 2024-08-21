@@ -1,36 +1,35 @@
-//
-//  TabsView.swift
-//  TeamBlue
-//
-//  Created by Gcode on 8/13/24.
-//
-
 import SwiftUI
 
 struct TabsView: View {
-    @State private var tabSelection = 1
+    @Binding var selectedTab: String
+    
+    // Hiding Tab Bar...
+    init(selectedTab: Binding<String>) {
+        self._selectedTab = selectedTab
+        UITabBar.appearance().isHidden = true
+    }
     var body: some View {
-        TabView(selection: $tabSelection) {
+        
+        // Tab View With Tabs...
+        TabView(selection: $selectedTab){
+            
+            // Views...
             HomeView()
-                .tag(1)
+                .tag("Home")
             
             SearchView()
-                .tag(2)
+                .tag("Search")
             
             ExpensesView(currentTab: .constant("Expenses"))
-                .tag(3)
+                .tag("Budget")
             
             SettingsView()
-                .tag(4)
+                .tag("Settings")
+            
+            Text("Email YoungQuest@gmail.com for additional help")
+                .tag("Help")
+            
+            
         }
-        .overlay(alignment: .bottom) {
-            CustomTabView(tabSelection: $tabSelection)
-        }
-        .ignoresSafeArea()
-        .navigationBarBackButtonHidden(true)
     }
-}
-
-#Preview {
-    TabsView()
 }
