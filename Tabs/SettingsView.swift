@@ -24,7 +24,7 @@ struct SettingsView: View {
                                 .font(.headline)
                         }
                     }
-
+                    
                     NavigationLink(destination: ExpensesView(currentTab: .constant("Expenses"))) {
                         HStack {
                             Image("budget")
@@ -45,6 +45,17 @@ struct SettingsView: View {
                         }
                     }
                 }
+                Section(header: Text("Job")) {NavigationLink(destination: AcceptedJobsView()) {
+                    HStack {
+                        Image("Check")
+                            .foregroundColor(.green)
+                            .font(.system(size: 24))
+                        Text("AcceptedJobs")
+                            .font(.headline)
+                    }
+                }
+                    
+                }
                 
                 Section(header: Text("Preferences")) {
                     Toggle(isOn: $isDarkMode) {
@@ -57,15 +68,16 @@ struct SettingsView: View {
                         }
                     }
                 }
+              
+                .listStyle(GroupedListStyle())
+                .navigationTitle("Settings")
+                .background(Color(.systemGroupedBackground))
+                .preferredColorScheme(isDarkMode ? .dark : .light) // Apply the color scheme based on the toggle state
             }
-            .listStyle(GroupedListStyle())
-            .navigationTitle("Settings")
-            .background(Color(.systemGroupedBackground))
-            .preferredColorScheme(isDarkMode ? .dark : .light) // Apply the color scheme based on the toggle state
         }
     }
 }
+    #Preview {
+        SettingsView()
+    }
 
-#Preview {
-    SettingsView()
-}
