@@ -9,17 +9,16 @@ import SwiftUI
 
 struct JobDetailView: View {
     var job: JobsDataManager
+    
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
-                // Job Title
                 Text(job.name)
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(.primary)
                     .padding(.bottom, 8)
                 
-                // Location
                 HStack {
                     Image(systemName: "mappin.and.ellipse")
                         .foregroundColor(.blue)
@@ -30,7 +29,6 @@ struct JobDetailView: View {
                 
                 Divider()
                 
-                // Description
                 Text("Description")
                     .font(.headline)
                     .padding(.bottom, 4)
@@ -41,7 +39,6 @@ struct JobDetailView: View {
                 
                 Divider()
                 
-                // Pay
                 HStack {
                     Image(systemName: "dollarsign.circle")
                         .foregroundColor(.green)
@@ -52,7 +49,6 @@ struct JobDetailView: View {
                 
                 Divider()
                 
-                // Job Type
                 HStack {
                     Image(systemName: "briefcase")
                         .foregroundColor(.orange)
@@ -63,7 +59,6 @@ struct JobDetailView: View {
                 
                 Divider()
                 
-                // Benefits
                 if let benefits = job.benefits, !benefits.isEmpty {
                     Text("Benefits")
                         .font(.headline)
@@ -82,7 +77,6 @@ struct JobDetailView: View {
                 
                 Divider()
                 
-                // Requirements
                 Text("Requirements")
                     .font(.headline)
                     .padding(.bottom, 4)
@@ -92,13 +86,22 @@ struct JobDetailView: View {
                 
                 Divider()
                 
-                // Category
                 HStack {
                     Image(systemName: "tag")
                         .foregroundColor(.purple)
                     Text("Category: \(job.category)")
                         .font(.subheadline)
                         .foregroundColor(.secondary)
+                }
+                
+                Divider()
+                
+                HStack {
+                    ProgressCircleView(status: job.applicationStatus)
+                    
+                    Text("Application Status: \(job.applicationStatus.rawValue)")
+                        .font(.headline)
+                        .foregroundColor(job.applicationStatus.color)
                 }
                 
                 Spacer()
@@ -111,23 +114,23 @@ struct JobDetailView: View {
         }
         .padding()
     }
+}
 
-    }
-
-    #Preview {
+#Preview {
     let sampleJob = JobsDataManager(
-    id: 1,
-    name: "Software Engineer",
-    location: "San Francisco, CA",
-    description: "Develop and maintain software applications.",
-    pay: "$120,000/year",
-    jobType: "Full-Time",
-    benefits: ["Health Insurance", "401k", "Paid Time Off"],
-    requirements: "Experience in Swift, Xcode, and iOS development.",
-    category: "Technology",
-    image: "software_engineer"
+        id: 1,
+        name: "Software Engineer",
+        location: "San Francisco, CA",
+        description: "Develop and maintain software applications.",
+        pay: "$120,000/year",
+        jobType: "Full-Time",
+        benefits: ["Health Insurance", "401k", "Paid Time Off"],
+        requirements: "Experience in Swift, Xcode, and iOS development.",
+        category: "Technology",
+        image: "software_engineer",
+        applicationStatus: .notApplied // Example status
     )
-
+    
     return JobDetailView(job: sampleJob)
+}
 
-    }

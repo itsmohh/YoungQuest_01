@@ -13,12 +13,10 @@ struct JobCardView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
-            // Job Title and Pay
             HStack {
                 Text(job.name)
                     .font(.title2)
                     .fontWeight(.semibold)
-                    
                     .lineLimit(1)
                 
                 Spacer()
@@ -29,20 +27,15 @@ struct JobCardView: View {
                     .foregroundColor(.green)
             }
             
-            // Location
             Text(job.location)
                 .font(.subheadline)
-                
                 .lineLimit(1)
             
-            // Description
             Text(job.description)
                 .font(.body)
-                
-                .lineLimit(2) // Limit lines to keep the card compact
+                .lineLimit(2)
                 .truncationMode(.tail)
             
-            // Job Type
             HStack {
                 Spacer()
                 Text(job.jobType)
@@ -52,9 +45,18 @@ struct JobCardView: View {
                     .cornerRadius(10)
                     .foregroundColor(.blue)
             }
+            
+            HStack {
+                ProgressCircleView(status: job.applicationStatus)
+                
+                Spacer()
+                
+                Text("Status: \(job.applicationStatus.rawValue)")
+                    .font(.caption)
+                    .foregroundColor(job.applicationStatus.color)
+            }
         }
         .padding()
-        
         .cornerRadius(15)
         .shadow(radius: 6, x: 0, y: 2)
         .frame(maxWidth: .infinity)
@@ -66,7 +68,6 @@ struct JobCardView: View {
     }
 }
 
-
 #Preview {
     let sampleJob = JobsDataManager(
         id: 1,
@@ -77,8 +78,9 @@ struct JobCardView: View {
         jobType: "Full-Time",
         benefits: ["Health Insurance", "401k", "Paid Time Off"],
         requirements: "Experience in Swift, Xcode, and iOS development.",
-        category: "Technology", image: "Hi"
-       
+        category: "Technology",
+        image: "software_engineer",
+        applicationStatus: .interview // Example status
     )
     
     return JobCardView(job: sampleJob)
