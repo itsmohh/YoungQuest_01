@@ -25,7 +25,8 @@ struct SettingsView: View {
                         }
                     }
                     
-                    NavigationLink(destination: ExpensesView(currentTab: .constant("Expenses"))) {
+                   
+                        
                         
                         NavigationLink(destination: CategoriesView()) {
                             HStack {
@@ -49,10 +50,11 @@ struct SettingsView: View {
                     }
                     Section(header: Text("Job")) {NavigationLink(destination: JobStatusView()) {
                         HStack {
-                            Image("Check")
+                            Image("budget")
                                 .foregroundColor(.green)
                                 .font(.system(size: 24))
                             Text("Status")
+                            Text("Accepted Jobs")
                                 .font(.headline)
                         }
                     }
@@ -79,7 +81,7 @@ struct SettingsView: View {
             }
         }
     }
-}
+
     #Preview {
         SettingsView()
     }
