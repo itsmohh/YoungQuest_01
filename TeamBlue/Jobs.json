@@ -18,7 +18,8 @@
         "requirements": "Experience working with children under the age of 5 in a large group environment. Post-high school education is a plus! Shows empathy and compassion for young children. Is dependable and adaptable and enjoys working together toward a common goal. Must be able to lift up to 50 lbs. For Infant and Young Toddler Teachers, must be able to properly lift infants into and out of a crib.",
         "category": "Education",
         "id": 1000,
-        "image": "apple"
+        "image": "apple",
+        "applicationStatus": "Not Applied"
     },
     {
         "name": "Lifeguard",
@@ -33,7 +34,8 @@
         "requirements": "Minimum age of 16. Certifications: CPR for the Professional Rescuer, AED, and Basic First Aid. Current Red Cross or YMCA Lifeguard certification. Ability to maintain certification-level of physical and mental readiness. Must demonstrate lifeguard skills in accordance with YMCA standards. Must be able to remain alert and see and observe all sections of an assigned zone or area of responsibility.",
         "category": "Safety",
         "id": 1001,
-        "image": "apple"
+        "image": "apple",
+        "applicationStatus": "Not Applied"
     },
     {
         "name": "Sales Associate/Stock (Adidas)",
@@ -50,7 +52,8 @@
         "requirements": "Availability must be flexible and include evenings and weekends. Hours are part-time and will vary based on business needs. You must have or be pursuing a high school diploma or GED. Three to six months of experience working in a retail environment preferred. Basic numeracy, literacy, and verbal communication skills required. Must be 16 years of age or older. The employee must frequently lift and/or move up to 25 pounds and occasionally up to 50 pounds. Specific vision abilities required by this job include close vision, distance vision, color vision, peripheral vision, and the ability to adjust focus.",
         "category": "Retail",
         "id": 1002,
-        "image": "apple"
+        "image": "apple",
+        "applicationStatus": "Not Applied"
     },
     {
         "name": "Rutgers Parking Attendant",
@@ -62,7 +65,8 @@
         "requirements": "Must have the ability to communicate effectively with great customer service skills. Must be able to work in a variety of weather. Must be able to do simple math if cashier. Greet all patrons attending football games. Must wear a proper uniform (i.e. Plain White Polo, with Khaki pants). Screen for various parking passes.",
         "category": "Parking",
         "id": 1003,
-        "image": "apple"
+        "image": "apple",
+        "applicationStatus": "Not Applied"
     },
     {
         "name": "Program Assistant - Birthday Parties",
@@ -74,7 +78,8 @@
         "requirements": "High school student or equivalent. Previous experience working with children. At least 15 years of age. Previous experience with diverse populations preferred.",
         "category": "Assistant",
         "id": 1004,
-        "image": "apple"
+        "image": "apple",
+        "applicationStatus": "Not Applied"
     },
     {
         "name": "Tropical Smoothie Café Crew Member",
@@ -90,7 +95,8 @@
         "requirements": "Follow the highest food safety standards and regulations. Train quickly and work efficiently. Previous quick serve or restaurant experience a plus. Flexible availability. Rotating weekend shifts are required. Must be 16 years or older.",
         "category": "Retail",
         "id": 1005,
-        "image": "apple"
+        "image": "apple",
+        "applicationStatus": "Interview"
     },
     {
         "name": "Hospitality Team Member Evening Part-time (Chick-fil-A)",
@@ -108,7 +114,8 @@
         "requirements": "Must be at least 16 years of age upon hire date. Must be eligible to work in the United States. Must have a source of reliable transportation. Ability to handle all equipment, navigating shelving both high and low. Reading, writing, and basic math and verbal communication skills required. Must work well under pressure. Must be able to respond to changes or edits to orders quickly and efficiently. Must be available a minimum of 20 hours per week, with the ability to close until 10:45 pm, Mon-Sat, with at least 2 Saturday evenings per month.",
         "category": "Retail",
         "id": 1006,
-        "image": "apple"
+        "image": "apple",
+        "applicationStatus": "Offer"
     },
     {
         "name": "Student Aide",
@@ -122,7 +129,8 @@
         "requirements": "Minimum of 14 years old. Must be able to work well with young children, parents, and staff and display strong customer service-related skills. Must be certified (or agree to be trained) in CPR, First Aid, AED & oxygen certifications.",
         "category": "Assistant",
         "id": 1007,
-        "image": "apple"
+        "image": "apple",
+        "applicationStatus": "Not Applied"
     },
     {
         "name": "Philly Pretzel Factory Helper",
@@ -137,6 +145,7 @@
         "requirements": "Must be 16 years of age or older. Must be responsible and reliable.",
         "category": "Retail",
         "id": 1008,
-        "image": "apple"
+        "image": "apple",
+        "applicationStatus": "Interview"
     }
 ]

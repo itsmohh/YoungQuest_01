@@ -7,79 +7,62 @@
 
 import SwiftUI
 
-struct AcceptedJobsView: View {
+class OtherStatusesJobsViewModel: ObservableObject {
+    @Published var otherStatusJobs: [JobsDataManager] = []
+    
+    init() {
+        filterJobs()
+    }
+    
+    private func filterJobs() {
+        otherStatusJobs = jobs.filter { job in
+            job.applicationStatus != .notApplied // Filter out "Not Applied" jobs
+        }
+    }
+}
+
+
+struct JobStatusView: View {
+    @StateObject private var viewModel = OtherStatusesJobsViewModel()
+    @State private var selectedCategory: String = "All"
+    
+    var categories: [String] {
+        let allCategories = viewModel.otherStatusJobs.map { $0.category }
+        let uniqueCategories = Set(allCategories)
+        return ["All"] + uniqueCategories.sorted()
+    }
+
+    var filteredJobs: [JobsDataManager] {
+        viewModel.otherStatusJobs.filter { job in
+            (selectedCategory == "All" || job.category == selectedCategory)
+        }
+    }
+
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            Text("Congratulations!")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .foregroundColor(.green)
-                .padding(.top, 20)
+        NavigationView {
+            VStack {
 
-            Text("You've accepted a new job!")
-                .font(.title2)
-                .fontWeight(.semibold)
-                .foregroundColor(.primary)
-
-            VStack(alignment: .leading, spacing: 10) {
-                HStack {
-                    Text("Position:")
-                        .font(.headline)
-                        .foregroundColor(.secondary)
-                    Spacer()
-                    Text("Software Engineer")
-                        .font(.title3)
-                        .fontWeight(.medium)
-                }
-
-                HStack {
-                    Text("Company:")
-                        .font(.headline)
-                        .foregroundColor(.secondary)
-                    Spacer()
-                    Text("Tech Corp")
-                        .font(.title3)
-                        .fontWeight(.medium)
-                }
-
-                HStack {
-                    Text("Location:")
-                        .font(.headline)
-                        .foregroundColor(.secondary)
-                    Spacer()
-                    Text("San Francisco, CA")
-                        .font(.title3)
-                        .fontWeight(.medium)
-                }
-
-                HStack {
-                    Text("Salary:")
-                        .font(.headline)
-                        .foregroundColor(.secondary)
-                    Spacer()
-                    Text("$120,000/year")
-                        .font(.title3)
-                        .fontWeight(.medium)
-                }
-
-                HStack {
-                    Text("Date Accepted:")
-                        .font(.headline)
-                        .foregroundColor(.secondary)
-                    Spacer()
-                    Text("August 19, 2024")
-                        .font(.title3)
-                        .fontWeight(.medium)
+                // Job Cards
+                ScrollView {
+                    LazyVStack {
+                        ForEach(filteredJobs) { job in
+                            NavigationLink(destination: JobDetailView(job: job)) {
+                                JobCardView(job: job)
+                                    .padding()
+                            }
+                        }
+                    }
                 }
             }
-            .padding()
-
-            Spacer()
+            .navigationTitle("Jobs Status")
+            .navigationBarTitleDisplayMode(.inline)
+            .background(Color(.systemGroupedBackground).edgesIgnoringSafeArea(.all))
         }
-        .padding()
     }
 }
 
 #Preview {
-    AcceptedJobsView()
+    JobStatusView()
+        .preferredColorScheme(.dark)
 }
+

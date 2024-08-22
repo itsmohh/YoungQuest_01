@@ -47,12 +47,12 @@ struct SettingsView: View {
                             }
                         }
                     }
-                    Section(header: Text("Job")) {NavigationLink(destination: AcceptedJobsView()) {
+                    Section(header: Text("Job")) {NavigationLink(destination: JobStatusView()) {
                         HStack {
                             Image("Check")
                                 .foregroundColor(.green)
                                 .font(.system(size: 24))
-                            Text("AcceptedJobs")
+                            Text("Status")
                                 .font(.headline)
                         }
                     }
