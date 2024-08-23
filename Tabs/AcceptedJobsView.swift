@@ -63,6 +63,6 @@ struct JobStatusView: View {
 
 #Preview {
     JobStatusView()
-        .preferredColorScheme(.dark)
+        
 }
 

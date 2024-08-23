@@ -27,7 +27,7 @@ struct SideMenu: View {
             
             VStack(alignment: .leading, spacing: 6, content: {
                 
-                Text("Jenna Ezarik")
+                Text("John Doe")
                     .font(.title)
                     .fontWeight(.heavy)
                     .foregroundColor(.white)
